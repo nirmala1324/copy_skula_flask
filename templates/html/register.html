@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>WEB PPLK 2021 - @yield('title')</title>
+
+    <!-- Styling and logo -->
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    </link>
+    <link rel="stylesheet" href="static/css/main-stylings.css">
+    </link>
+    <link rel="shortcut icon" type="image/png" href="static/assets/images/Logopplk-clearbg.png" />
+</head>
+
+<body>
+    <!-- Splash Screen -->
+    <div class="launch-logo">
+        <img src="static/assets/images/laptop3d.png" alt="launch-logo-sekula" class="launch-logo-image fade" />
+    </div>
+
+    <!-- Registration Page -->
+    <div class="login-page">
+        <!-- background -->
+        <div class="bg-container d-none d-xl-block d-xxl-block">
+            <img src="static/assets/images/wavey-bg.png" alt="wavey-bg" class="wavey-bg">
+        </div>
+        <div class="pplk-logo">
+            <img src="static/assets/images/Logopplk-clearbg.png" alt="launch-logo-pplk" class="pplk-logo-img" />
+        </div>
+
+        <div class="wrap-login justify-content-between">
+
+            <div class="login-welcome-info">
+                <h1 class="silahkan-masuk">Daftar Akun Baru</h1>
+                <p>Isi formulir di bawah ini untuk mendaftar.</p>
+            </div>
+
+            <form class="login-form m-sm-auto" method="POST">
+                <div class="col-md-12 input-field-group">
+                    <label class="form-label mb-1">Nama Lengkap</label>
+                    <div class="input-field">
+                        <i class="input-logo">
+                            <img src="static/assets/images/name-logo.png" alt="" class="">
+                        </i>
+                        <input class="input-control form-control" type="text" name="name" placeholder="Nama Lengkap">
+                    </div>
+
+                    <label class="form-label mb-1">Email</label>
+                    <div class="input-field">
+                        <i class="input-logo">
+                            <img src="static/assets/images/email-logo.png" alt="" class="">
+                        </i>
+                        <input class="input-control form-control" type="text" name="email" placeholder="Email">
+                    </div>
+
+                    <label class="form-label mb-1">Password</label>
+                    <div class="input-field">
+                        <i class="input-logo">
+                            <img src="static/assets/images/password-logo.png" alt="" class="">
+                        </i>
+                        <input class="input-control form-control" type="password" name="pass" placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="col-md-12 mb-1">
+                    <button name="submit" type="submit" onclick="window.location.href='/index.html';"
+                        class="btn btn-primary rounded custom-login-btn">
+                        Daftar
+                    </button>
+                </div>
+            </form>
+            <div class="col-md-12 forget-password flex-column">
+                <p>Sudah punya akun? <strong><a href="login.html">Masuk</a></strong></p>
+            </div>
+        </div>
+    </div>
+    <!-- Required JS -->
+    <script src="static/js/bootstrap.bundle.js"></script>
+    <script src="static/js/custom.js"></script>
+</body>
+
+</html>

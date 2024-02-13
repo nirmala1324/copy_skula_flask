@@ -1,0 +1,92 @@
+#tombol kembali
+
+
+<nav class="navbar p-0">
+    <div class="container-fluid nav-back">
+        <a class="navback-home" href="#" onclick="goBack()">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="36" height="36" rx="10" fill="white"/>
+                <path d="M20.5625 25.5833C20.5625 25.5833 14.4375 21.094 14.4375 18C14.4375 14.907 20.5625 10.4166 20.5625 10.4166" stroke="#070A15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> 
+        </a>
+    </div>
+</nav>
+
+            <!-- Navbar -->
+            <div class="navbar p-0 d-lg-block d-xl-none">
+                <div class="container-fluid head-bar">
+                    <a class="pplk-logo navbar-brand" href="#">
+                        <img src="static/assets/images/laptop3d.png" alt="launch-logo-pplk" class="pplk-logo-img"/>
+                    </a>
+                    <div class="head-menu row ">
+                        <a class="head-menu-icon" href="#">
+                            <img src="static/assets/images/notification.png" alt="notification-menu">
+                        </a>
+                        <a class="head-menu-profile" href="profile">
+                            <img src="static/assets/images/jhonnysins.png" alt="notification-menu">    
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FootBar -->
+            <div class="navbar p-0 d-lg-block d-xl-none">
+                <ul class="container-fluid footer-bar">
+                        
+                        <li>
+                            <a href="#">
+
+                                <svg class="icon" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" 
+                                        d="M2.59961 14.8556C2.59961 8.75534 3.26478 9.18109 6.84519 5.86067C8.41169 4.59967 10.8492 2.1665 12.9541 2.1665C15.0579 2.1665 17.5442 4.58775 19.1248 5.86067C22.7052 9.18109 23.3693 8.75534 23.3693 14.8556C23.3693 23.8332 21.247 23.8332 12.9844 23.8332C4.72186 23.8332 2.59961 23.8332 2.59961 14.8556Z" 
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.83398 17.4797H16.1336" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+
+                                Home
+                            </a>     
+                        </li>                    
+
+                        <li>
+                            <a href="#">
+                                <svg class="icon" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" 
+                                        d="M12.8309 23.4669C8.83147 23.4669 5.41602 22.8446 5.41602 20.352C5.41602 17.8595 8.8098 15.5586 12.8309 15.5586C16.8304 15.5586 20.2459 17.8372 20.2459 20.3297C20.2459 22.8212 16.8521 23.4669 12.8309 23.4669Z" 
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" 
+                                        d="M12.8232 12.1049C15.4478 12.1049 17.5751 9.9776 17.5751 7.35298C17.5751 4.72836 15.4478 2.6001 12.8232 2.6001C10.1986 2.6001 8.07034 4.72836 8.07034 7.35298C8.06148 9.96873 10.174 12.096 12.7897 12.1049C12.8016 12.1049 12.8124 12.1049 12.8232 12.1049Z" 
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg> 
+                                Profile                            
+                            </a>
+                        </li>  
+
+                        <li>
+                            <a href="#">
+                                <svg class="icon" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" 
+                                        d="M3.91016 13.0003C3.91016 20.5154 6.18299 23.0212 13.0004 23.0212C19.8189 23.0212 22.0907 20.5154 22.0907 13.0003C22.0907 5.48524 19.8189 2.97949 13.0004 2.97949C6.18299 2.97949 3.91016 5.48524 3.91016 13.0003Z" 
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.8939 17.0046H9.07227" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.8939 12.9313H9.07227" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.0588 8.85905H9.07422" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                MyCourses    
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <!-- buat svg untuk icon disimpan -->
+                                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 3V21L12 18L19 21V3H5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  
+                                Saved                                   
+                            </a>
+                        </li>
+
+                </ul>
+            </div>  
+
+
